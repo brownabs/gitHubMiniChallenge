@@ -4,23 +4,40 @@
   <meta charset="utf-8">
   <title>My Favorite Dinosaur</title>
   <link rel="stylesheet" href="./favoriteDino.css">
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation">
+  
 
 </head>
 
 <body>
-
-  <header class="header">Abbey Brown</header>
+  <div class="font-effect-fire-animation">
+<header class="mainHeader">Personal Bio and Dinosaur Mini Challenge</header>
+</div>
+  <div class="gallery">
   
   <article class="cardOne">
-    
     <section class="aboutMe">
-      <img src="/me2020.jpg"/>
-      <p>Hi my name is Abbey. Relearning coding.</p>
+      <img src="/me2020.jpg" id="me"/>
+      <p class="header">Abbey Brown</p>
+      <p>Hi, my name is Abbey. I am junior instructor for Nashville Software School evening cohort 13. Huzzah!</p>
     </section>
-    <footer></footer>
   </article>
 
-  <script src="./doll.js"></script>
+  <article class="cardTwo">
+    <section class="aboutDinosaur">
+      <img src="/longneck.jpg"/>
+      <p class="header">Long Neck Dinosaurs</p>
+      <p>The sauropod dinosaurs, which included titans such as Brachiosaurus, Diplodocus, and Apatosaurus (once known as Brontosaurus), are well-known for the very long necks they usually sported. The lengthy neck extended the animal's reach for grabbing food.</p>
+    </section>
+  </article>
+</div>
+<audio controls id="audio_play">
+  <source src="/233278__jarredgibb__dinosaur-3.wav" type="audio/mpeg">
+</audio>
+<p onClick="document.getElementById('audio_play').play(); return false;">Click for dino sound!</p>
 </body>
-<footer>Abbey Brown. June 5, 2020</footer>
+<div class="font-effect-fire-animation">
+<footer class="footer">Abbey Brown. June 5, 2020</footer>
+</div>
 </html>
